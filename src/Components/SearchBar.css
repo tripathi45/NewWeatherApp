@@ -1,0 +1,30 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 40px rgba(51, 51, 51, 0.1);
+  padding: 10px;
+}
+
+.search-container input {
+  height: 40px;
+  text-indent: 10px;
+  border: 2px solid #CDD7E7;
+}
+
+.search-container input:focus {
+  box-shadow: none;
+  border: 2px solid #929292;
+}
+
+.search-container .fa-search {
+  margin-right: 10px;
+}
+
+.search-container button {
+  height: 40px;
+  background: blue;
+  color: #CDD7E7;
+  border: none;
+  cursor: pointer;
+}
